@@ -20,7 +20,7 @@ QUANDL_API_KEY = os.getenv("QUANDL_API_KEY")  # Economic data
 SERPAPI_KEY = os.getenv("SERPAPI_KEY")  # For enhanced web search
 
 # Application Configuration
-APP_NAME = "Expert Financial Risk Analysis AI"
+APP_NAME = "Expert Financial Risk Analysis Agent"
 VERSION = "2.0.0"
 DEBUG = os.getenv("DEBUG", "False").lower() == "true"
 
@@ -205,4 +205,4 @@ FEATURES = {
     "ENABLE_SENTIMENT_ANALYSIS": True,
     "ENABLE_TECHNICAL_INDICATORS": True,
     "ENABLE_FUNDAMENTAL_ANALYSIS": True
-}
+}  
